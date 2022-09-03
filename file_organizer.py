@@ -3,20 +3,20 @@ import os
 
 # Defining all the extensions i want to organize
 extensions = {
-    'PDF Files' : ('.pdf'),                                    # PDF extensions
+    'PDF Files' : ('.pdf',),                                    # PDF extensions
     'Word Files' : ('.doc','.docx','.docm','.dot','.dotx'),    # Word extensions
     'Excel Files' : ('.xls','.xlsx'),                          # Excel extensions    
     'Image Files' : ('.jpg','.jpeg','.png','.gif'),            # Images extensions
     'Powerpoint Files' : ('.ppt','.pptx','.pptm','.xml'),      # Powerpoint extension
-    'Book Files' : ('.epub'),                                  # Book extension
+    'Book Files' : ('.epub',),                                  # Book extension
     'Zip Files' : ('.zip','.rar'),
-    'Software Files' : ('.exe')                               # Program extension
+    'Software Files' : ('.exe',)                               # Program extension
     # 'Others' : None
 }
 
 
 # # Store the parent directory in a variable
-parent_dir = r'C:\Users\<username>\Downloads'
+parent_dir = r'C:\Users\salma\Downloads'
 
 # Run a for loop in the dictionary to cycle the keys
 for key in extensions.keys():
