@@ -16,7 +16,7 @@ extensions = {
 
 
 # # Store the parent directory in a variable
-parent_dir = r'C:\Users\salma\Downloads'
+parent_dir = r'C:\Users\<username>\Downloads'
 
 # Run a for loop in the dictionary to cycle the keys
 for key in extensions.keys():
